@@ -1,9 +1,13 @@
+html,body,.container {
+  width: 100%;
+}
+
 body {
   font-family: PingFangSC-Regular, sans-serif;
 }
 
 .container {
-  background: url(../images/bg.png) no-repeat;
+  /* background: url(../images/bg.png) no-repeat; */
   color: #fff;
 }
 
@@ -93,4 +97,68 @@ body {
 
 .highlight-title:after {
   margin-left: 40px;
+}
+/* 
+.bg1 {
+  background: url(../images/bg/1.jpg) center no-repeat;
+  background-size: contain;
+}
+
+.bg2 {
+  background: url(../images/bg/2.jpg) center no-repeat;
+  background-size: contain;
+}
+
+.bg3 {
+  background: url(../images/bg/3.jpg) center no-repeat;
+  background-size: contain;
+}
+
+.bg4 {
+  background: url(../images/bg/4.jpg) center no-repeat;
+  background-size: contain;
+}
+
+.bg5 {
+  background: url(../images/bg/5.jpg) center no-repeat;
+  background-size: contain;
+}
+
+.bg6 {
+  background: url(../images/bg/6.jpg) center no-repeat;
+  background-size: contain;
+}
+
+.bg7 {
+  background: url(../images/bg/7.jpg) center no-repeat;
+  background-size: contain;
+} */
+
+section {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bg {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0; */
+  width: 100%;
+  display: block;
+}
+
+.cover {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+video {
+  display: block;
 }
