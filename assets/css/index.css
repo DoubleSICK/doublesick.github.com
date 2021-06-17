@@ -25,6 +25,11 @@ body {
   width: 100vw;
 }
 
+.swiper-container img {
+  width: 100%;
+  display: block;
+}
+
 .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after,
 .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
   color: #fff;
