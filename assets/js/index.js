@@ -31,7 +31,7 @@ function initSwiper() {
 }
 
 function init() {
-  initVideo();
+  // initVideo();
   initSwiper();
 }
 

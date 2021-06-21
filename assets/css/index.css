@@ -108,6 +108,14 @@ body {
 .highlight-title:after {
   margin-left: 40px;
 }
+
+.welcome-title:before {
+  margin-left: -140px;
+}
+
+.welcome-title:after {
+  margin-left: 80px;
+}
 /* 
 .bg1 {
   background: url(../images/bg/1.jpg) center no-repeat;
