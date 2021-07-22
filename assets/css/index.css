@@ -180,3 +180,26 @@ section {
 video {
   display: block;
 }
+
+.partner-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.partner-container ul {
+  display: flex;
+}
+
+.partner-container li {
+  margin: 0 30px 20px 0;
+}
+
+.partner-container li:last-child {
+  margin-right: 0;
+}
+
+.partner-container img {
+  height: 100px;
+}
