@@ -49,7 +49,7 @@ body {
 }
 
 .wrap {
-  width: 800px;
+  width: 1350px;
   margin: 0 auto;
 }
 
@@ -97,8 +97,8 @@ body {
   left: 50%;
   margin-top: -1px;
   height: 2px;
-  width: 60px;
-  background-color: #fff;
+  width:40px;
+  background-color: #000;
 }
 
 .highlight-title:before {
@@ -106,7 +106,7 @@ body {
 }
 
 .highlight-title:after {
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .welcome-title:before {
@@ -116,41 +116,41 @@ body {
 .welcome-title:after {
   margin-left: 80px;
 }
-/* 
-.bg1 {
-  background: url(../images/bg/1.jpg) center no-repeat;
-  background-size: contain;
+
+.swiper-section {
+  background: url(../images/bg/banner-bg.png) center no-repeat;
+  background-size: cover;
+  padding: 0 175px;
+  box-sizing: border-box;
 }
 
-.bg2 {
-  background: url(../images/bg/2.jpg) center no-repeat;
-  background-size: contain;
+.swiper-section .swiper-container {
+  width: 100%;
 }
 
-.bg3 {
-  background: url(../images/bg/3.jpg) center no-repeat;
-  background-size: contain;
+.swiper-section .swiper-button-prev {
+  left: 40px;
 }
 
-.bg4 {
-  background: url(../images/bg/4.jpg) center no-repeat;
-  background-size: contain;
+.swiper-section .swiper-button-next {
+  right: 40px;
 }
 
-.bg5 {
-  background: url(../images/bg/5.jpg) center no-repeat;
-  background-size: contain;
+.function-section {
+  position: relative;
 }
 
-.bg6 {
-  background: url(../images/bg/6.jpg) center no-repeat;
-  background-size: contain;
+.function-video {
+  width: 40%;
+  position: absolute;
+  left: 12.7%;
+  top: 18%;
 }
 
-.bg7 {
-  background: url(../images/bg/7.jpg) center no-repeat;
-  background-size: contain;
-} */
+.video-border {
+  width: 100%;
+  display: block;
+}
 
 section {
   position: relative;
@@ -160,11 +160,6 @@ section {
 }
 
 .bg {
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 0; */
   width: 100%;
   display: block;
 }
@@ -181,13 +176,6 @@ video {
   display: block;
 }
 
-.partner-container {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, 0);
-}
-
 .partner-container ul {
   display: flex;
 }
@@ -202,4 +190,34 @@ video {
 
 .partner-container img {
   height: 100px;
+}
+
+.brand-content {
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255,255,255,.6);
+  margin-bottom: 50px;
+}
+
+.brand-content .underline {
+  color: rgba(255,255,255,1)
+}
+
+.title-text {
+  background-color: #61DFF4;
+  color: #000;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 40px;
+}
+
+.partner-section {
+  margin: 400px 0 300px;
+}
+
+.brand-wrap {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -675px;
 }
